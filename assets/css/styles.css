@@ -9,7 +9,22 @@
 .container-fluid{
     background-color:rgb(0, 102, 51);
 }
+
 .nav-link{
     color: white;
     font-family:"Ubuntu";
+}
+.titulo{
+    font-family:"Ubuntu";
+}
+.parrafo{
+    font-family:"Ubuntu";
+}
+
+.frase{
+    font-family: "Ubuntu";
+    font-style: italic;
+}
+footer{
+    background-color:rgb(0, 102, 51); 
 }
