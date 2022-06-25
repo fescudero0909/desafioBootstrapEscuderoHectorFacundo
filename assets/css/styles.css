@@ -25,6 +25,25 @@
     font-family: "Ubuntu";
     font-style: italic;
 }
+main{
+    font-family: "Ubuntu";
+}
+.objeto{
+    background-color: #d5d2d2;
+}
+.btn{
+    width: 100px;
+    background-color: rgb(0, 102, 51);
+    color: white;
+    border-radius: 5%;
+}
+aside{
+    font-family: "Ubuntu";
+}
+.areas{
+    font-style: oblique;
+    list-style: none;
+}
 footer{
     background-color:rgb(0, 102, 51); 
 }
