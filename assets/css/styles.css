@@ -12,6 +12,10 @@
 .bg-colorFCM{
     background-color:rgb(171, 1, 50);
 }
+.navbar-brand{
+    animation-name: aparecer;
+    animation-duration: 2s;
+}
 
 .nav-link{
     color: white;
@@ -37,6 +41,13 @@ main{
 .objeto{
     background-color: #d5d2d2;
 }
+.fotoCurso{
+    transition: all 1s;
+}
+.fotoCurso:hover{
+    transform: translate(0px,-15px) scale(1.1) ;
+}
+
 .btn{
     width: 100px;
     color: white;
@@ -58,4 +69,12 @@ footer{
 }
 .footerFCM{
     background-color:rgb(171, 1, 50);
+}
+@keyframes aparecer{
+    0%{
+        opacity: 0;
+    }
+    100%{
+        opacity: 1;
+    }
 }
